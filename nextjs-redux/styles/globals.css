@@ -1,0 +1,158 @@
+root {
+  --border-radius: 6px;
+}
+
+html,
+body,
+h2,
+h3, a, button {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+button::-moz-focus-inner { 
+  border: 0; 
+  padding: 0; 
+  margin-top:0px; 
+  margin-bottom: 0px; 
+}
+a, button {
+  color: inherit;
+  text-decoration: none;
+}
+h2{
+  font-size: 55px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-search{
+  height: 85vh;
+}
+.w-100{
+  width: 100%;
+}
+.w-750{
+  width: 60%;
+  max-width: 750px;
+}
+.w-060 {
+  width: 60%;
+}
+.hero {
+  background: url("../public/hero.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height:80vh;
+  padding-top:120px;
+}
+.hero-text {
+  text-align: left;
+  top: 25%;
+  font-weight: bold;
+}
+.purple-button {
+  padding: 8px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: purple;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+}
+.purple-button:active{
+  background-color: orange;
+}
+.search-bar {
+  width: 50%;
+  height: 3rem;
+  padding: 25px;
+  border: none;
+  border:solid 1px #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+input:focus {
+  border-color: #0004ff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0004ff;
+
+}
+input{
+  font-size: 20px;
+  font-weight: 200;
+  height: 3rem;
+  padding: 25px;
+  border: none;
+  border:solid 1px #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+.h-3{
+  height: 3rem;
+}
+.m-20{
+  margin: 20px;
+}
+.ml-20{
+  margin-left:20px;
+}
+.mr-20{
+  margin-right:20px;
+}
+.mt-20{
+  margin-top:20px;
+}
+.mb-20{
+  margin-bottom:20px;
+}
+.flex{
+  display: flex;
+}
+.flex-column{
+  flex-direction: column;
+}
+.center {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
+.ttcenter{
+  text-align: center;
+}
+
+.card {
+  background-color: purple;
+  height:20rem;
+  width: 25%;
+  text-align: center;
+  border-radius: 6px;
+  justify-content: space-evenly;
+  color:white;
+  padding:20px;
+}
